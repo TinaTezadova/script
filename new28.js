@@ -340,7 +340,7 @@ pow(3, 3) = 3 * 3 * 3 = 27
 pow(1, 100) = 1 * 1 * ...* 1 = 1
 Создайте страницу, которая запрашивает x и n, а затем выводит результат pow(x,n). */
 
-/* function pow(x,n) {
+ function pow(x,n) {
     let result = x;
 
     for (i=1; i<n; i++) {
@@ -358,12 +358,9 @@ if (n<1) {
 }
 else {
     alert(pow(x,n));
-} */
+} 
 
-
-//Замените код Function Expression стрелочной функцией:
-
-/* function ask(question, yes, no) {
+ function ask(question, yes, no) {
   if (confirm(question)) yes()
   else no();
 }
@@ -378,7 +375,7 @@ ask(
 function ask(question, yes, no) {
     if (confirm(question)) yes()
     else no();
-  } */
+  } 
 
 
 
